@@ -1,0 +1,15 @@
+{
+  "name": "ws-demo",
+  "type": "module",
+  "scripts": {
+    "clientByUsername": "node --watch src/clientByUsername.js",
+    "clientByToken": "node --watch src/clientByToken.js",
+    "server": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "ws": "^8.15.1"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10"
+  }
+}
